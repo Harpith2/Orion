@@ -1,0 +1,45 @@
+.voice-chat-section {
+  margin-top: 20px;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.status-text {
+  text-align: center;
+  color: #666;
+  margin: 10px 0;
+}
+
+.permission-text {
+  color: #666;
+  margin: 10px 0;
+}
+
+.voice-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.voice-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.voice-button.start {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.voice-button.end {
+  background-color: #f44336;
+  color: white;
+}
+
+.voice-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

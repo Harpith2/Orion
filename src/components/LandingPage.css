@@ -1,0 +1,42 @@
+.landing-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4ec;
+  }
+  
+  .landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+  }
+  
+  .landing-logo {
+    width: 200px;
+    height: auto;
+   
+    margin-right: 150px;
+    
+    
+  }
+  
+
+  .landing-logo img {
+    width: 150%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  #signInDiv {
+    margin-bottom: 190px;  /* Negative margin to move only the sign-in button up */
+    position: relative;  /* Add relative positioning */
+    margin-right: 10px;
+ 
+  }
+
+ 
+  
+  

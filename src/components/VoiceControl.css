@@ -1,0 +1,79 @@
+.voice-icon {
+    position: absolute;
+    left: 680px;  /* Mirror of the send-button's right position */
+    bottom: 99px;
+    padding: 0.5rem;
+    background: none;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    transition: opacity 0.2s ease;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 700;
+    font-size: 1.1rem;
+    width: 30px;  /* Fixed width */
+  height: 30px; /* Fixed height */
+  background-color: #601A3E;
+  padding: 0;
+  position: fixed;
+}
+
+
+
+.voice-icon.active {
+  color: #ff4444;
+}
+
+.voice-icon:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pulse-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #ff4444;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+.voice-status-indicator {
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  pointer-events: none;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.error-message {
+  color: #ff4444;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 5px;
+} 
