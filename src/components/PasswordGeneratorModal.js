@@ -10,7 +10,7 @@ const PasswordGeneratorModal = ({ onClose }) => {
   const [number, setNumber] = useState("");
   const [passwords, setPasswords] = useState([]);
   
-  const API_KEY = "AIzaSyCgDFI8J8R6M1HcWbjhxP9LZpkGJQsuFDQ";
+  const API_KEY = "key";
 
   const handleImageChange = (e) => {
     const file = e.target.files[0];
